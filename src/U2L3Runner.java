@@ -4,7 +4,16 @@ public class U2L3Runner {
     {
         Scanner s = new Scanner(System.in);
         ChatBot.greeting();
-        String howAreYou = s.nextLine();
+        String greet = s.nextLine();
         ChatBot.help();
+        String answer = s.nextLine();
+        if (answer == "w"){
+            ChatBot.weather();
+        }
+        else {
+            if (answer == "f"){
+                ChatBot.
+            }
+        }
     }
 }

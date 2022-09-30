@@ -6,12 +6,12 @@ public class ChatBot
     }
 
     public static void help() {
-        System.out.println("You can ask me about the weather by typing 'weather()'.");
-        System.out.println("You can tell me your favorite number by typing 'favoriteNumber()' with your favorite number in the parenthesis!");
-        System.out.println("I can even convert feet to meters if you type in 'distanceInfo()'!");
+        System.out.println("You can ask me about the weather by typing in 'w'.");
+        System.out.println("You can tell me your favorite number by typing 'f'");
+        System.out.println("I can even convert feet to meters if you type in 'd'!");
     }
 
-    public void weather() {
+    public static void weather() {
         System.out.println("I actually don't know much about the weather");
         System.out.println("But it is always warm and dry inside this computer.");
     }
