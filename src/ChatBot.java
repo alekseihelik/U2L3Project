@@ -16,23 +16,23 @@ public class ChatBot
         System.out.println("But it is always warm and dry inside this computer.");
     }
 
-    public void distanceInfo() {
+    public static void distanceInfo() {
         System.out.println("There are 5280 feet in a mile");
         System.out.println("There are " + feetToMeters(1) + "meters in a foot");
         System.out.println("There are " + feetToMeters(5280) + " meters in a mile");
     }
 
-    public double feetToMeters(double feet) {
+    public static double feetToMeters(double feet) {
         double meters = feet * 0.3048;
         return meters;
     }
 
-    public void goodbye() {
+    public static void goodbye() {
         System.out.println("It was nice talking with you.");
         System.out.println("Have a great day!");
     }
 
-    public void favoriteNumber(int yourNumber) {
+    public static void favoriteNumber(int yourNumber) {
         System.out.println("My favorite number is 8");
         System.out.print("That is " );
         System.out.print(yourNumber - 8);
